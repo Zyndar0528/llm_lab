@@ -12,4 +12,4 @@ t1 = time.perf_counter()
 t = t1 - t0
 peak = torch.cuda.max_memory_allocated()
 print (f"峰值显存{peak / 1048576:.1f} MB")
-print (f"总时长{t:.3f} 秒,平均每次时长{t / 20:.3f} 秒")
+print (f"总时长{t:.3f} 秒,平均每次时长{t / 200:.3f} 秒")
